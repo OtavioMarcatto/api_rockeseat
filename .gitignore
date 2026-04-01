@@ -1,0 +1,87 @@
+# ========================
+# .NET / C#
+# ========================
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+.vs/
+*.swp
+*.tmp
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Publish output
+publish/
+PublishOutput/
+
+# ========================
+# Environment & Secrets
+# ========================
+.env
+.env.*
+!.env.example
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# ========================
+# PostgreSQL
+# ========================
+*.pgsql
+*.sql.bak
+pgdata/
+postgres-data/
+
+# ========================
+# Entity Framework / Migrations temp
+# ========================
+# Keep migrations tracked, just ignore temp files
+*.ef.bak
+
+# ========================
+# Logs
+# ========================
+*.log
+logs/
+*.log.*
+
+# ========================
+# IDE
+# ========================
+.vs/
+.vscode/
+.idea/
+*.DotSettings.user
+
+# ========================
+# OS
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# Node (if any frontend tooling)
+# ========================
+node_modules/
+/wwwroot/node_modules
